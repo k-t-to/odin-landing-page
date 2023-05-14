@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 16px;
+}
+
+.header-links{
+  display: flex;
+  gap: 32px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.main-content {
+  padding: 50px 250px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  background-color: #1F2937;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#donut-logo {
+  height: 40px;
+  width: auto;
+}
+
+.header-links {
+  margin-left: auto;
+}
+
+.header-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.header-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.header-panel-text {
+  min-width: 400px;
+  max-width: 800px;
+  flex: 1 1 0;
+}
+
+#donut-main {
+  min-width: 400px;
+  max-width: 800px;
+  height: auto;
+  margin-left: auto;
+  flex: 1 1 0;
+}
+
+.btn {
+  background-color: #3882F6;
+  color: white;
+  padding: 8px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  border-color: transparent;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+
+.subtext-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  gap: 24px;
+}
+
+.fact-text {
+ font-size: 36px;
+ font-weight: 800px;
+ color: #1F2937;
+}
+
+.donut-content {
+  border: 4px solid #3882F6;
+  border-radius: 5px;
+}
+
+.donut-quote {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+}
+
+.quote-speaker {
+  align-self: flex-end;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.call-to-action {
+  display: flex;
+  gap: 64px;
+  background-color: #3882F6;
+  padding: 20px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.btn-border {
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #E5E7EB;
+  padding: 20px 100px;
+  font-size: 10px;
+}
